@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="${project.artifactId}-${project.version}"
+	xmlns="http://karaf.apache.org/xmlns/features/v1.4.0">
+                
+	<repository>mvn:org.apache.karaf.features/standard/4.2.6/xml/features</repository>
+	<repository>mvn:com.flairbit.iot/features/${project.version}/xml/features</repository>
+	
+	<feature name="flairkit-alarms-rest" description='${project.name}' version='${project.version}'>
+		
+		<feature>wrap</feature>
+		
+ 		<feature dependency="true">flairkit-alarms-postgres</feature>
+
+		
+	</feature>
+ 	
+	<feature name="flairkit-alarms-postgres" description='${project.name}' version='${project.version}'>
+		
+		<feature>wrap</feature>
+		<feature dependency="true" prerequisite="true">flairkit-postgres</feature>
+
+		
+	</feature>
+
+</features>
