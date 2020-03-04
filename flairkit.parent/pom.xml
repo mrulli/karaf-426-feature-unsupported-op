@@ -107,7 +107,7 @@
 		<wabs.applications.version>1.1.0</wabs.applications.version>
 
 		<!-- Shared general dependencies -->
-		<jackson.version>2.9.8</jackson.version>
+		<jackson.version>2.10.3</jackson.version>
 
 		<!-- Atmosphere feature -->
 		<atmosphere-runtime.version>2.4.20</atmosphere-runtime.version>
