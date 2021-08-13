@@ -150,7 +150,7 @@
 		<uom.systems.version>0.7</uom.systems.version>
 
 		<!-- Assembly libraries versions -->
-		<bouncycastle.version>1.56</bouncycastle.version>
+		<bouncycastle.version>1.67</bouncycastle.version>
 		<jna.version>4.3.0</jna.version>
 		<xerces.version>2.11.0_1</xerces.version>
 		<xalan.bundle.version>2.7.2_3</xalan.bundle.version>
