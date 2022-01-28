@@ -29,7 +29,7 @@
 
 		<!-- Toolchain and OSGi runtime -->
 		<bnd.version>4.1.0</bnd.version>
-		<karaf.version>4.2.6</karaf.version>
+		<karaf.version>4.3.6</karaf.version>
 		<jasypt.version>1.9.2</jasypt.version>
 		<apache.servicemix.jasypt.version>1.9.2_1</apache.servicemix.jasypt.version>
 		<felix.configadmin.version>1.9.14</felix.configadmin.version>
