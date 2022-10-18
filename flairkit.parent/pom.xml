@@ -68,7 +68,7 @@
 		<osgi.annotation.version>1.1.0</osgi.annotation.version>
 		<cxf.version>3.3.2</cxf.version>
 		<cxf.json.basic.version>${cxf.version}</cxf.json.basic.version>
-		<jettison.version>1.4.0</jettison.version>
+		<jettison.version>1.5.1</jettison.version>
 		<commons-io.version>2.6</commons-io.version>
 		<openjpa.version>3.0.0</openjpa.version>
 		<hibernate.version>5.4.0.Final</hibernate.version>
